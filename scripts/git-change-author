@@ -9,7 +9,7 @@
 #
 
 filter=$(cat <<EOF
-    OLD_EMAIL='$1'
+    OLD_EMAIL='$7'
     NEW_NAME='$2'
     NEW_EMAIL='$3'
 
