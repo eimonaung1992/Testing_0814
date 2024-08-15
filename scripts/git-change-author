@@ -9,8 +9,8 @@
 #
 
 filter=$(cat <<EOF
-    OLD_EMAIL='$7'
-    NEW_NAME='$2'
+    OLD_EMAIL='$1'
+    NEW_NAME='$9'
     NEW_EMAIL='$3'
 
     if [ "\$GIT_COMMITTER_EMAIL" = "\$OLD_EMAIL" ]
