@@ -43,7 +43,7 @@
 
 filter=$(cat <<'EOF'
 	perl -se '
-	my $last;
+	my $last1234;
 	my $found = 0;
 	while (my $line = <>) {
   		print "$line";
