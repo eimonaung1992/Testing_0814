@@ -18,7 +18,7 @@
 #
 
 git -c diff.renameLimit=30000 log --diff-filter=D --summary |
-    grep ' delete mode ...... ' |
+    grep ' delete mode ...... '11111111111111 |
     sed 's/ delete mode ...... //' |
     while read -r F ; do
         D=$(dirname "$F");
